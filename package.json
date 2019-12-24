@@ -1,0 +1,33 @@
+{
+  "name": "@faustikle/prsync",
+  "version": "1.0.0",
+  "description": "A Bitbucket PR sync",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@faustikle/prsync": "bin/prsync",
+    "prsync": "bin/prsync"
+  },
+  "keywords": [
+    "pr",
+    "pull request",
+    "prsync",
+    "bitbucket",
+    "git"
+  ],
+  "author": "Kleber Faustino <faustikle@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "dependencies": {
+    "bitbucket": "^1.17.1",
+    "chalk": "^3.0.0",
+    "ramda": "^0.26.1",
+    "request": "^2.88.0",
+    "s-ago": "^2.1.0"
+  }
+}
