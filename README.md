@@ -4,7 +4,9 @@
 
 * Access your bitbucket settings, and click on `ACCESS MANAGEMENT > OAuth`.
 * In `OAuth consumers` click on `Add consumer` button.
-* Fill `Name`, select `This is a private consumer` checkbox and mark permission `Pull requests - Read`, and save.
+* Fill `Name`, select `This is a private consumer` checkbox.
+* Fill `Callback URL` with a valid url, like `http://localhost`.
+* Mark permission `Pull requests - Read`, and save.
 * Back on `OAuth integrated applications` screen, click on your consumer created and copy `Key` and `Secret` tokens.
 
 ### Set environments
