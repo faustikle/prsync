@@ -1,5 +1,5 @@
 {
-  "name": "@faustikle/prsync",
+  "name": "prsync",
   "version": "1.0.0",
   "description": "A Bitbucket PR sync",
   "main": "cli.js",
@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "@faustikle/prsync": "bin/prsync",
     "prsync": "bin/prsync"
   },
   "keywords": [
